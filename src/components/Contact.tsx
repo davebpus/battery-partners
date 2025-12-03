@@ -1,6 +1,6 @@
 import { Mail, Phone, Globe, ArrowUpRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logoStacked from "@/assets/logo-stacked.png";
+import logoStacked from "@/assets/logo-stacked.svg";
 
 const Contact = () => {
   return (
