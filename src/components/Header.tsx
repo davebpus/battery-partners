@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import logoHorizontal from "@/assets/logo-horizontal.png";
+import logoHorizontal from "@/assets/logo-horizontal.svg";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
