@@ -25,7 +25,7 @@ const Header = () => {
           <img
             src={logoHorizontal}
             alt="Battery Partners"
-            className="h-10 md:h-12"
+            className="h-12 md:h-14"
           />
         </a>
         <nav className="hidden md:flex items-center gap-8">

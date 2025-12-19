@@ -38,7 +38,7 @@ const Hero = () => {
           
           <p className="text-lg md:text-xl text-bp-cream/80 max-w-2xl mb-10 animate-slide-up animation-delay-100">
             From GTM strategy to manufacturing execution, we partner with battery, 
-            EV charging, and energy storage innovators to bring transformative 
+            eMobility, and energy storage innovators to bring transformative 
             technologies to market.
           </p>
           
