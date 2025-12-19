@@ -1,4 +1,4 @@
-import { Mail, Phone, Globe, ArrowUpRight } from "lucide-react";
+import { Mail, Phone, ArrowUpRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import logoStacked from "@/assets/logo-stacked.svg";
 
@@ -22,12 +22,12 @@ const Contact = () => {
             </h2>
             <p className="text-bp-cream/80 text-lg mb-8">
               Whether you're navigating US market entry, planning manufacturing 
-              scale-up, or defining your go-to-market strategy, we're here to help.
+              scale-up, or defining your GTM, we're here to help.
             </p>
             
             <div className="space-y-4 mb-8">
               <a
-                href="mailto:Dave@BatteryPartners.us"
+                href="mailto:Sales@BatteryPartners.us"
                 className="flex items-center gap-4 p-4 rounded-lg bg-bp-cream/5 border border-bp-cream/10 hover:bg-bp-cream/10 hover:border-bp-cream/20 transition-all group"
               >
                 <div className="w-12 h-12 rounded-lg bg-bp-gold/20 flex items-center justify-center">
@@ -35,7 +35,7 @@ const Contact = () => {
                 </div>
                 <div className="flex-1">
                   <p className="text-bp-cream/60 text-sm">Email</p>
-                  <p className="text-bp-cream font-medium">Dave@BatteryPartners.us</p>
+                  <p className="text-bp-cream font-medium">Sales@BatteryPartners.us</p>
                 </div>
                 <ArrowUpRight className="w-5 h-5 text-bp-cream/40 group-hover:text-bp-gold transition-colors" />
               </a>
@@ -54,21 +54,6 @@ const Contact = () => {
                 <ArrowUpRight className="w-5 h-5 text-bp-cream/40 group-hover:text-bp-gold transition-colors" />
               </a>
               
-              <a
-                href="https://BatteryPartners.us"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-4 p-4 rounded-lg bg-bp-cream/5 border border-bp-cream/10 hover:bg-bp-cream/10 hover:border-bp-cream/20 transition-all group"
-              >
-                <div className="w-12 h-12 rounded-lg bg-bp-gold/20 flex items-center justify-center">
-                  <Globe className="w-5 h-5 text-bp-gold" />
-                </div>
-                <div className="flex-1">
-                  <p className="text-bp-cream/60 text-sm">Website</p>
-                  <p className="text-bp-cream font-medium">BatteryPartners.us</p>
-                </div>
-                <ArrowUpRight className="w-5 h-5 text-bp-cream/40 group-hover:text-bp-gold transition-colors" />
-              </a>
             </div>
           </div>
           
