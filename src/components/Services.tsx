@@ -1,4 +1,4 @@
-import { Target, Rocket, Factory } from "lucide-react";
+import { Target, Handshake, TrendingUp } from "lucide-react";
 
 const services = [
   {
@@ -13,25 +13,25 @@ const services = [
     ],
   },
   {
-    icon: Rocket,
-    title: "Strategic Initiatives",
+    icon: Handshake,
+    title: "Partnerships & Joint Ventures",
     description:
-      "Execute complex projects that move your company forward. From US onshoring to regulatory compliance, we manage critical initiatives end-to-end.",
+      "Identify and structure strategic partnerships that accelerate growth. We help you find the right partners and structure deals that create mutual value.",
     items: [
-      "US plant build-out & automation planning",
-      "BABA compliance & tariff strategy",
-      "Milestone mapping & budget structuring",
+      "Strategic partner identification",
+      "Joint venture structuring & negotiation",
+      "Partnership due diligence & integration",
     ],
   },
   {
-    icon: Factory,
-    title: "Commercialization Support",
+    icon: TrendingUp,
+    title: "Market Expansion & Acquisitions",
     description:
-      "Bridge the gap from R&D to manufacturing scale. We provide hands-on support to transform promising technology into commercial products.",
+      "Expand into new markets and identify acquisition targets that complement your capabilities. We guide you from opportunity assessment to deal execution.",
     items: [
-      "Supply chain localization & sourcing",
-      "Site selection & facility planning",
-      "Technical operations architecture",
+      "New market entry strategy",
+      "Acquisition target identification",
+      "Market & competitive landscape analysis",
     ],
   },
 ];
@@ -45,7 +45,7 @@ const Services = () => {
             What We Do
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            End-to-End Commercialization Advisory
+            Strategic Growth Advisory
           </h2>
           <p className="text-muted-foreground text-lg">
             We partner with founders and leadership teams to accelerate the path 
