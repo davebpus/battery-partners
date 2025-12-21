@@ -1,4 +1,4 @@
-import { Target, Rocket, Factory } from "lucide-react";
+import { Target, Rocket, Handshake } from "lucide-react";
 
 const services = [
   {
@@ -14,24 +14,24 @@ const services = [
   },
   {
     icon: Rocket,
-    title: "Strategic Initiatives",
+    title: "USA Expansion & On-shoring",
     description:
-      "Execute complex projects that move your company forward. From US onshoring to regulatory compliance, we manage critical initiatives end-to-end.",
+      "Navigate US market entry with confidence. From regulatory compliance to establishing local presence, we guide your expansion strategy end-to-end.",
     items: [
-      "US plant build-out & automation planning",
-      "BABA compliance & tariff strategy",
-      "Milestone mapping & budget structuring",
+      "US market entry planning",
+      "BABA compliance & regulatory strategy",
+      "Local partnership development",
     ],
   },
   {
-    icon: Factory,
-    title: "Commercialization Support",
+    icon: Handshake,
+    title: "Partnerships & Joint Ventures",
     description:
-      "Bridge the gap from R&D to manufacturing scale. We provide hands-on support to transform promising technology into commercial products.",
+      "Build strategic alliances that accelerate growth. We help structure and negotiate partnerships that unlock new markets and capabilities.",
     items: [
-      "Supply chain localization & sourcing",
-      "Site selection & facility planning",
-      "Technical operations architecture",
+      "Partnership strategy & identification",
+      "Joint venture structuring",
+      "Deal negotiation & term sheets",
     ],
   },
 ];

@@ -37,9 +37,8 @@ const Hero = () => {
           </h1>
           
           <p className="text-lg md:text-xl text-bp-cream/80 max-w-2xl mb-10 animate-slide-up animation-delay-100">
-            From GTM strategy to manufacturing execution, we partner with battery, 
-            eMobility, and energy storage innovators to bring transformative 
-            technologies to market.
+            From GTM strategy to market expansion, we partner with battery, 
+            eMobility, and energy storage innovators to scale and enter new markets.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 animate-slide-up animation-delay-200">
