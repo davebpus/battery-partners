@@ -9,10 +9,10 @@ const Header = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-  return <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "bg-background/95 backdrop-blur-md shadow-sm py-4" : "bg-transparent py-6"}`}>
+  return <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "bg-background/95 backdrop-blur-md shadow-sm py-1" : "bg-transparent py-2"}`}>
       <div className="container mx-auto px-6 flex items-center justify-between">
-        <a href="#" className="flex items-center h-full py-1">
-          <img src={logoHorizontal} alt="Battery Partners" className="h-full max-h-16 md:max-h-30" />
+        <a href="#" className="flex items-center">
+          <img src={logoHorizontal} alt="Battery Partners" className="h-12 md:h-16" />
         </a>
         <nav className="hidden md:flex items-center gap-8">
           <a href="#services" className="text-foreground/80 hover:text-foreground transition-colors font-medium">
