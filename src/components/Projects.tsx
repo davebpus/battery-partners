@@ -1,4 +1,4 @@
-import { Battery, Plug, Package, Factory, MapPin, Cpu, Beaker } from "lucide-react";
+import { Battery, Plug, Package, Factory, MapPin, Cpu, Beaker, FlaskConical } from "lucide-react";
 
 const projects = [
   {
@@ -42,6 +42,12 @@ const projects = [
     category: "Novel Chemistry",
     title: "Domestic Battery Startup",
     description: "Advised founding team on commercialization structure, designed hiring architecture, and authored full technical operations plan bridging R&D to manufacturability.",
+  },
+  {
+    icon: FlaskConical,
+    category: "eMobility & Powertrain Testing",
+    title: "Testing Services Provider",
+    description: "Led new market expansion into eVTOL, light electric vehicles, and commercial trucking industries. Identified strategic account targets for accelerated revenue growth.",
   },
 ];
 
