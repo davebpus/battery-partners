@@ -21,8 +21,8 @@ const Contact = () => {
               Ready to Commercialize Your Technology?
             </h2>
             <p className="text-bp-cream/80 text-lg mb-8">
-              Whether you're exploring strategic partnerships, expanding into new 
-              markets, or evaluating acquisition opportunities, we're here to help.
+              Whether you're navigating US market entry, planning manufacturing 
+              scale-up, or defining your GTM, we're here to help.
             </p>
             
             <div className="space-y-4 mb-8">

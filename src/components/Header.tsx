@@ -21,11 +21,11 @@ const Header = () => {
       }`}
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
-        <a href="#" className="flex items-center h-full">
+        <a href="#" className="flex items-center">
           <img
             src={logoHorizontal}
             alt="Battery Partners"
-            className="h-16 md:h-20"
+            className="h-12 md:h-14"
           />
         </a>
         <nav className="hidden md:flex items-center gap-8">
