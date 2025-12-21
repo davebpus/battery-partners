@@ -54,7 +54,7 @@ const Contact = () => {
               </h3>
               <p className="text-bp-gold font-medium mb-6">Founder</p>
               <Button variant="hero" size="lg" asChild className="w-full">
-                <a href="mailto:Dave@BatteryPartners.us">
+                <a href="https://calendar.app.google/8vUzFsbaN2TQZN9n6" target="_blank" rel="noopener noreferrer">
                   Schedule a Call
                 </a>
               </Button>
