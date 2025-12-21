@@ -9,7 +9,7 @@ const Header = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-  return <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "bg-background/95 backdrop-blur-md shadow-sm py-1" : "bg-transparent py-2"}`}>
+  return <header className="fixed top-0 left-0 right-0 z-50 bg-background py-1 shadow-sm">
       <div className="container mx-auto px-6 flex items-center justify-between">
         <a href="#" className="flex items-center">
           <img alt="Battery Partners" className="h-12 md:h-16" src="/lovable-uploads/5d85f881-8e8d-45e1-820c-e4594b064078.png" />
