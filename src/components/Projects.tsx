@@ -39,6 +39,11 @@ const projects = [{
   category: "eMobility & Powertrain Testing",
   title: "Testing Services Provider",
   description: "Led new market expansion into eVTOL, light electric vehicles, and commercial trucking industries. Identified strategic account targets for accelerated revenue growth."
+}, {
+  icon: Plug,
+  category: "Light Electric Vehicles",
+  title: "LEV OEM",
+  description: "Provided capital advisory services to fund initial production builds for existing customer orders, supporting successful start of production milestones."
 }];
 const Projects = () => {
   return <section id="projects" className="py-24 bg-muted/50">
