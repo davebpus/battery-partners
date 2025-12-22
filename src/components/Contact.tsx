@@ -18,7 +18,7 @@ const Contact = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-bp-cream mb-6">
               Ready to Commercialize Your Technology?
             </h2>
-            <p className="text-bp-cream/80 text-lg mb-8">Whether you're navigating US market entry, planning commercialization, or defining your GTM—we're here to help.</p>
+            <p className="text-bp-cream/80 text-lg mb-8">Whether you're navigating US market entry, planning commercialization, or defining/scaling your GTM—we're here to help.</p>
             
             <div className="space-y-4 mb-8">
               <a href="mailto:Sales@BatteryPartners.us" className="flex items-center gap-4 p-4 rounded-lg bg-bp-cream/5 border border-bp-cream/10 hover:bg-bp-cream/10 hover:border-bp-cream/20 transition-all group">
