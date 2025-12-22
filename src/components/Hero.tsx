@@ -1,9 +1,7 @@
 import { ArrowRight, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
 const Hero = () => {
-  return (
-    <section className="relative min-h-screen flex items-center bg-gradient-hero overflow-hidden">
+  return <section className="relative min-h-screen flex items-center bg-gradient-hero overflow-hidden">
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-10 w-72 h-72 bg-bp-gold rounded-full blur-3xl" />
@@ -11,14 +9,11 @@ const Hero = () => {
       </div>
       
       {/* Grid pattern overlay */}
-      <div 
-        className="absolute inset-0 opacity-5"
-        style={{
-          backgroundImage: `linear-gradient(hsl(var(--bp-cream)) 1px, transparent 1px),
+      <div className="absolute inset-0 opacity-5" style={{
+      backgroundImage: `linear-gradient(hsl(var(--bp-cream)) 1px, transparent 1px),
                             linear-gradient(90deg, hsl(var(--bp-cream)) 1px, transparent 1px)`,
-          backgroundSize: '60px 60px'
-        }}
-      />
+      backgroundSize: '60px 60px'
+    }} />
 
       <div className="container mx-auto px-6 pt-24 pb-16 relative z-10">
         <div className="max-w-4xl">
@@ -36,10 +31,7 @@ const Hero = () => {
             <span className="text-bp-gold">Commercialize</span>
           </h1>
           
-          <p className="text-lg md:text-xl text-bp-cream/80 max-w-2xl mb-10 animate-slide-up animation-delay-100">
-            From GTM strategy to market expansion, we partner with battery, 
-            eMobility, and energy storage innovators to scale and enter new markets.
-          </p>
+          <p className="text-lg md:text-xl text-bp-cream/80 max-w-2xl mb-10 animate-slide-up animation-delay-100">From GTM strategy to market expansion, we partner with battery, eMobility, and electronics manufactures innovators to commercialize, scale, and enter new markets.</p>
           
           <div className="flex flex-col sm:flex-row gap-4 animate-slide-up animation-delay-200">
             <Button variant="hero" size="xl" asChild>
@@ -59,8 +51,6 @@ const Hero = () => {
       
       {/* Bottom fade */}
       <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent" />
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
