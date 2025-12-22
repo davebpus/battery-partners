@@ -52,7 +52,7 @@ const Contact = () => {
               <h3 className="text-xl font-semibold text-bp-green mb-2">
                 Dave McChesney
               </h3>
-              <p className="text-bp-gold font-medium mb-6">Founder</p>
+              <p className="font-medium mb-6 text-primary">Founder</p>
               <Button variant="hero" size="lg" asChild className="w-full">
                 <a href="https://calendar.app.google/8vUzFsbaN2TQZN9n6" target="_blank" rel="noopener noreferrer">
                   Schedule a Call
