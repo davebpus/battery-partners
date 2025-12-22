@@ -47,9 +47,9 @@ const Contact = () => {
           </div>
           
           <div className="flex flex-col items-center lg:items-end">
-            <div className="bg-bp-cream/5 backdrop-blur-sm border border-bp-cream/10 rounded-2xl p-8 md:p-12 text-center max-w-md">
+            <div className="bg-white border border-bp-cream/20 rounded-2xl p-8 md:p-12 text-center max-w-md shadow-lg">
               <img alt="Battery Partners" className="h-32 mx-auto mb-6" src="/lovable-uploads/d54fff92-d8ea-4024-9a1e-fc8e675bac61.png" />
-              <h3 className="text-xl font-semibold text-bp-cream mb-2">
+              <h3 className="text-xl font-semibold text-bp-green mb-2">
                 Dave McChesney
               </h3>
               <p className="text-bp-gold font-medium mb-6">Founder</p>
